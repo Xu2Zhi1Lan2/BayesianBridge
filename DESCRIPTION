@@ -1,0 +1,43 @@
+Package: BBHD
+Title: Bayesian Bridge Rrgression and Normal Mean with High Dimensions
+Version: 0.1
+Authors@R: 
+    c(person(given="Zihan",
+            family="Zhu",
+            role = c("cre", "aut"), 
+            email = "zihanzhu@math.arizona.edu"),
+    person(given="Ziang",
+            family="Fu",
+            role = c("aut"), 
+            email = "ziangfu@mail.bnu.edu.cn"),
+    person(given="Jingkang",
+            family="Liu",
+            role = c("aut"), 
+            email = "jkl200407@gmail.com"),
+    person(given="Qiaoyu",
+            family="Liang",
+            role = c("aut"), 
+            email = "qiaoyu.liang@mail.utoronto.ca"))
+Description: Providing an advanced suite of tools for performing Bayesian Bridge 
+    Regression and Bayesian Normal Mean estimation. It offers efficient algorithms 
+    for modeling and inference, notably through a Metropolis-Hastings within Gibbs 
+    sampler with an adapted step size, specifically designed to handle linear regression 
+    contexts with high dimensions with p>n. The Bayesian Bridge Regression module 
+    allows for sophisticated handling of regularization issues by adjusting for both 
+    shrinkage and selection, with the ability to sample from joint posterior distributions 
+    of coefficients and model hyperparameters. Compared to other traditional Bayesian 
+    Bridge Regression packages, this method addresses more potential issues of convergence.
+URL: https://github.com/Xu2Zhi1Lan2/BayesianBridge
+License: `use_mit_license()`
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
+NeedsCompilation: no
+Packaged: 2024-04-15 16:48:53 UTC; 31270
+Author: Zihan Zhu [cre, aut],
+  Ziang Fu [aut],
+  Jingkang Liu [aut],
+  Qiaoyu Liang [aut]
+Maintainer: Zihan Zhu <zihanzhu@math.arizona.edu>
