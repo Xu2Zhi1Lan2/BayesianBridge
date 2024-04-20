@@ -1,4 +1,4 @@
-# BBHD: Bayesian Bridge with High Dimensions in R
+# BBHD: Bayesian Bridge in High Dimensions using R
 
 ## Overview
 
