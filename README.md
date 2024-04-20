@@ -20,7 +20,7 @@ The `BBHD` package mainly includes:
 
 - `R/`: Contains the core implementation of the package functions.
   - `BBLR.R`: Implements the Bayesian Bridge Linear Regression.
-  - `BBNM.R`: Implements a Bayesian Bridge Nonlinear Model.
+  - `BBNM.R`: Implements a Bayesian Bridge Normal Means Model.
 - `vignettes/`: Includes a detailed tutorial on Bayesian Bridge Regression (`Bayesian-Bridge-tutorial.Rmd`).
 - `Bayesian-Bridge-tutorial.pdf`: A PDF version of the vignette is also available
 
@@ -29,7 +29,7 @@ The `BBHD` package mainly includes:
 ### Functions
 
 - **`BBLR()`**: Performs Bayesian Bridge Linear Regression.
-- **`BBNM()`**: Extends the Bayesian Bridge Normal Mean.
+- **`BBNM()`**: Performs Bayesian Bridge Normal Mean.
 
 ### Key Parameters
 
@@ -41,7 +41,7 @@ The `BBHD` package mainly includes:
 - `thin`: Thinning factor for the samples.
 - `method.alpha`: Method for updating the `alpha` parameter during sampling.
 
-Both functions utilize advanced MCMC techniques, specifically Metropolis-Hastings within Gibbs sampling, to efficiently explore the posterior distributions of the model parameters in high dimensions case.
+Both functions utilize advanced MCMC techniques, specifically Metropolis-Hastings within Gibbs sampling with adaptive stepsize, to efficiently explore the posterior distributions of the model parameters in high-dimensional cases.
 
 ## Examples
 
