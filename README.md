@@ -22,6 +22,7 @@ The `BBHD` package mainly includes:
   - `BBLR.R`: Implements the Bayesian Bridge Linear Regression.
   - `BBNM.R`: Implements a Bayesian Bridge Nonlinear Model.
 - `vignettes/`: Includes a detailed tutorial on Bayesian Bridge Regression (`Bayesian-Bridge-tutorial.Rmd`).
+- `Bayesian-Bridge-tutorial.pdf`: A PDF version of the vignette is also available
 
 ## Key Features and Functions
 
@@ -58,6 +59,6 @@ Contributions to improve `BBHD` or extend its capabilities are welcome. Please s
 
 ## References
 
-[1] Nicholas G. Polson, James G. Scott, Jesse Windle, The Bayesian Bridge, *Journal of the Royal Statistical Society Series B: Statistical Methodology*, Volume 76, Issue 4, September 2014, Pages 713–733, https://doi.org/10.1111/rssb.12042
+[1] Mallick, H., & Yi, N. (2018). Bayesian Bridge Regression. *Journal of Applied Statistics*, 45(6), 988-1008. https://doi.org/10.1080/02664763.2017.1324565
 
-[2] Mallick, H., & Yi, N. (2018). Bayesian Bridge Regression. *Journal of applied statistics*, *45*(6), 988–1008. https://doi.org/10.1080/02664763.2017.1324565
+[2] Polson, N. G., Scott, J. G., & Windle, J. (2014). The Bayesian Bridge. *Journal of the Royal Statistical Society Series B: Statistical Methodology*, 76(4), 713-733. https://doi.org/10.1111/rssb.12042
